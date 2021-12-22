@@ -1,0 +1,140 @@
+/* Register Css */
+@font-face{
+                font-family: blackcastle;
+                src: url(BlackCastle.TTF);
+            }
+            #BackgroundImage{
+                background-size: 1365px 662px;
+            }
+            input[type=text]{
+                position: absolute;
+                width: 300px;
+                height: 30px;
+                border: 2px solid #ccc;
+                border-radius: 4px;
+            }
+            input[type=password]{
+            	position: absolute;
+                width: 300px;
+                height: 30px;
+                border: 2px solid #ccc;
+                border-radius: 4px;	
+            }
+            select{
+                border-radius: 4px;
+                height: 30px;
+                width: 90px;
+            }
+            label{
+                font-size: 18px;
+                font-weight: bold;
+            }
+            button{
+                font-size: 23px;
+                color: yellow;
+            }
+            #Register{
+                position: absolute;
+                top: 55px;
+                left: 800px;
+                width: 500px;
+                height: 550px;
+            }
+            #NameofGame{
+                position: absolute;
+                top: -50px;
+                left: 40px;
+                font-family: blackcastle;
+                color: yellow;
+                font-size: 70px;
+            }
+            #Registration{
+                position: absolute;
+                top: 130px;
+                left: 860px;
+            }
+            #Terms_Conditions{
+                color: blue;
+                text-decoration: underline;
+            }
+            #IAgree, #Terms_Conditions{
+                font-weight: bold;
+                font-size: 18px;
+            }
+            #Hangman{
+                position: absolute;
+                top: 100px;
+            }
+            #birthday{
+            	border: none;
+            }
+            .birthdayPicker{
+            	border:none;
+            }
+
+            .container{
+                position: absolute;
+                top: 130px;
+                left: 870px;
+            }
+            .form-control{
+                margin-bottom: 30px;
+            }
+            #username{
+                top: 20px;
+                position: absolute;
+            }
+            #email{
+                position: absolute;
+                top: 70px;
+                width: 300px;
+                height: 30px;
+                border: 2px solid #ccc;
+                border-radius: 4px;
+            }
+            #phone{
+                position: absolute;
+                top: 120px;
+            }
+            #password{
+                position: absolute;
+                top: 170px;
+            }
+            #confirmpassword{
+                position: absolute;
+                top: 220px;
+            }
+            #submit{
+                position: absolute;
+                top: 350px;
+                left: 20px;
+                border: none;
+                width: 150px;
+                height: 50px;
+                background-color: #502900;
+                box-shadow: 5px 5px 5px #191926;
+            }
+            #submit:hover{
+                background-color: #461F00;
+            }
+            #Mradio{
+                position: absolute;
+                top: 270px;
+                left: 30px;
+            }
+            #Fradio{
+                position: absolute;
+                top: 270px;
+                left: 160px;
+            }
+            .footInfo{
+                position: absolute;
+                top: 355px;
+                left: 200px;
+            }
+            input[type=submit]{
+                font-family: blackcastle;
+                color: yellow;
+                font-size: 25px;
+            }
+/* Login CSS */
